@@ -1,1 +1,2147 @@
-[]
+[
+  {
+    "repo": "oyster-nitro-logger",
+    "branchCommits": [
+      {
+        "branch": "master",
+        "commits": [
+          {
+            "sha": "8b072e8dfef6efb2c5c9f50734204ea9c8083eca",
+            "node_id": "C_kwDOM2O5atoAKDhiMDcyZThkZmVmNmVmYjJjNWM5ZjUwNzM0MjA0ZWE5YzgwODNlY2E",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T11:42:56Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T11:42:56Z"
+              },
+              "message": "make the build files executable",
+              "tree": {
+                "sha": "d63bff1e02b02ce8724b9eab41c9c33e2fd35720",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/git/trees/d63bff1e02b02ce8724b9eab41c9c33e2fd35720"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/git/commits/8b072e8dfef6efb2c5c9f50734204ea9c8083eca",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/8b072e8dfef6efb2c5c9f50734204ea9c8083eca",
+            "html_url": "https://github.com/marlinprotocol/oyster-nitro-logger/commit/8b072e8dfef6efb2c5c9f50734204ea9c8083eca",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/8b072e8dfef6efb2c5c9f50734204ea9c8083eca/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "50ec1448cd4e746ccaf2a8b676f6541e46499cda",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/50ec1448cd4e746ccaf2a8b676f6541e46499cda",
+                "html_url": "https://github.com/marlinprotocol/oyster-nitro-logger/commit/50ec1448cd4e746ccaf2a8b676f6541e46499cda"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "branch": "shared-log-counter",
+        "commits": [
+          {
+            "sha": "a928efaf6bae92ee7de0915c33e4c6e96cc9e195",
+            "node_id": "C_kwDOM2O5atoAKGE5MjhlZmFmNmJhZTkyZWU3ZGUwOTE1YzMzZTRjNmU5NmNjOWUxOTU",
+            "commit": {
+              "author": {
+                "name": "naman-monga",
+                "email": "namanmonga27@gmail.com",
+                "date": "2024-10-17T09:46:49Z"
+              },
+              "committer": {
+                "name": "naman-monga",
+                "email": "namanmonga27@gmail.com",
+                "date": "2024-10-17T09:46:49Z"
+              },
+              "message": "updated readme",
+              "tree": {
+                "sha": "5b042a564a0b875c3f0549f4dabc52f3551c5622",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/git/trees/5b042a564a0b875c3f0549f4dabc52f3551c5622"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/git/commits/a928efaf6bae92ee7de0915c33e4c6e96cc9e195",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/a928efaf6bae92ee7de0915c33e4c6e96cc9e195",
+            "html_url": "https://github.com/marlinprotocol/oyster-nitro-logger/commit/a928efaf6bae92ee7de0915c33e4c6e96cc9e195",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/a928efaf6bae92ee7de0915c33e4c6e96cc9e195/comments",
+            "author": {
+              "login": "Naman-Monga",
+              "id": 42845908,
+              "node_id": "MDQ6VXNlcjQyODQ1OTA4",
+              "avatar_url": "https://avatars.githubusercontent.com/u/42845908?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Naman-Monga",
+              "html_url": "https://github.com/Naman-Monga",
+              "followers_url": "https://api.github.com/users/Naman-Monga/followers",
+              "following_url": "https://api.github.com/users/Naman-Monga/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Naman-Monga/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Naman-Monga/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Naman-Monga/subscriptions",
+              "organizations_url": "https://api.github.com/users/Naman-Monga/orgs",
+              "repos_url": "https://api.github.com/users/Naman-Monga/repos",
+              "events_url": "https://api.github.com/users/Naman-Monga/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Naman-Monga/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "Naman-Monga",
+              "id": 42845908,
+              "node_id": "MDQ6VXNlcjQyODQ1OTA4",
+              "avatar_url": "https://avatars.githubusercontent.com/u/42845908?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Naman-Monga",
+              "html_url": "https://github.com/Naman-Monga",
+              "followers_url": "https://api.github.com/users/Naman-Monga/followers",
+              "following_url": "https://api.github.com/users/Naman-Monga/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Naman-Monga/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Naman-Monga/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Naman-Monga/subscriptions",
+              "organizations_url": "https://api.github.com/users/Naman-Monga/orgs",
+              "repos_url": "https://api.github.com/users/Naman-Monga/repos",
+              "events_url": "https://api.github.com/users/Naman-Monga/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Naman-Monga/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "116fea680a7ff9ded0d4e1b0dd41679e5787b306",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/116fea680a7ff9ded0d4e1b0dd41679e5787b306",
+                "html_url": "https://github.com/marlinprotocol/oyster-nitro-logger/commit/116fea680a7ff9ded0d4e1b0dd41679e5787b306"
+              }
+            ]
+          },
+          {
+            "sha": "116fea680a7ff9ded0d4e1b0dd41679e5787b306",
+            "node_id": "C_kwDOM2O5atoAKDExNmZlYTY4MGE3ZmY5ZGVkMGQ0ZTFiMGRkNDE2NzllNTc4N2IzMDY",
+            "commit": {
+              "author": {
+                "name": "naman-monga",
+                "email": "namanmonga27@gmail.com",
+                "date": "2024-10-17T09:21:46Z"
+              },
+              "committer": {
+                "name": "naman-monga",
+                "email": "namanmonga27@gmail.com",
+                "date": "2024-10-17T09:21:46Z"
+              },
+              "message": "moved lock to correct scope",
+              "tree": {
+                "sha": "b0f46062a6a8f978b60372605e0037ef49f091f2",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/git/trees/b0f46062a6a8f978b60372605e0037ef49f091f2"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/git/commits/116fea680a7ff9ded0d4e1b0dd41679e5787b306",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/116fea680a7ff9ded0d4e1b0dd41679e5787b306",
+            "html_url": "https://github.com/marlinprotocol/oyster-nitro-logger/commit/116fea680a7ff9ded0d4e1b0dd41679e5787b306",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/116fea680a7ff9ded0d4e1b0dd41679e5787b306/comments",
+            "author": {
+              "login": "Naman-Monga",
+              "id": 42845908,
+              "node_id": "MDQ6VXNlcjQyODQ1OTA4",
+              "avatar_url": "https://avatars.githubusercontent.com/u/42845908?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Naman-Monga",
+              "html_url": "https://github.com/Naman-Monga",
+              "followers_url": "https://api.github.com/users/Naman-Monga/followers",
+              "following_url": "https://api.github.com/users/Naman-Monga/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Naman-Monga/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Naman-Monga/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Naman-Monga/subscriptions",
+              "organizations_url": "https://api.github.com/users/Naman-Monga/orgs",
+              "repos_url": "https://api.github.com/users/Naman-Monga/repos",
+              "events_url": "https://api.github.com/users/Naman-Monga/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Naman-Monga/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "Naman-Monga",
+              "id": 42845908,
+              "node_id": "MDQ6VXNlcjQyODQ1OTA4",
+              "avatar_url": "https://avatars.githubusercontent.com/u/42845908?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Naman-Monga",
+              "html_url": "https://github.com/Naman-Monga",
+              "followers_url": "https://api.github.com/users/Naman-Monga/followers",
+              "following_url": "https://api.github.com/users/Naman-Monga/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Naman-Monga/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Naman-Monga/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Naman-Monga/subscriptions",
+              "organizations_url": "https://api.github.com/users/Naman-Monga/orgs",
+              "repos_url": "https://api.github.com/users/Naman-Monga/repos",
+              "events_url": "https://api.github.com/users/Naman-Monga/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Naman-Monga/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "802d4979c6e1d7ea68ad5bc2f034a7827765d959",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/802d4979c6e1d7ea68ad5bc2f034a7827765d959",
+                "html_url": "https://github.com/marlinprotocol/oyster-nitro-logger/commit/802d4979c6e1d7ea68ad5bc2f034a7827765d959"
+              }
+            ]
+          },
+          {
+            "sha": "802d4979c6e1d7ea68ad5bc2f034a7827765d959",
+            "node_id": "C_kwDOM2O5atoAKDgwMmQ0OTc5YzZlMWQ3ZWE2OGFkNWJjMmYwMzRhNzgyNzc2NWQ5NTk",
+            "commit": {
+              "author": {
+                "name": "naman-monga",
+                "email": "namanmonga27@gmail.com",
+                "date": "2024-10-17T09:04:12Z"
+              },
+              "committer": {
+                "name": "naman-monga",
+                "email": "namanmonga27@gmail.com",
+                "date": "2024-10-17T09:04:12Z"
+              },
+              "message": "replaced a localized log counter in capture logs with a global arc based mutex counter",
+              "tree": {
+                "sha": "2c0a4d92f99c22380eefdfed9926627f78f79141",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/git/trees/2c0a4d92f99c22380eefdfed9926627f78f79141"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/git/commits/802d4979c6e1d7ea68ad5bc2f034a7827765d959",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/802d4979c6e1d7ea68ad5bc2f034a7827765d959",
+            "html_url": "https://github.com/marlinprotocol/oyster-nitro-logger/commit/802d4979c6e1d7ea68ad5bc2f034a7827765d959",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/802d4979c6e1d7ea68ad5bc2f034a7827765d959/comments",
+            "author": {
+              "login": "Naman-Monga",
+              "id": 42845908,
+              "node_id": "MDQ6VXNlcjQyODQ1OTA4",
+              "avatar_url": "https://avatars.githubusercontent.com/u/42845908?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Naman-Monga",
+              "html_url": "https://github.com/Naman-Monga",
+              "followers_url": "https://api.github.com/users/Naman-Monga/followers",
+              "following_url": "https://api.github.com/users/Naman-Monga/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Naman-Monga/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Naman-Monga/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Naman-Monga/subscriptions",
+              "organizations_url": "https://api.github.com/users/Naman-Monga/orgs",
+              "repos_url": "https://api.github.com/users/Naman-Monga/repos",
+              "events_url": "https://api.github.com/users/Naman-Monga/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Naman-Monga/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "Naman-Monga",
+              "id": 42845908,
+              "node_id": "MDQ6VXNlcjQyODQ1OTA4",
+              "avatar_url": "https://avatars.githubusercontent.com/u/42845908?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Naman-Monga",
+              "html_url": "https://github.com/Naman-Monga",
+              "followers_url": "https://api.github.com/users/Naman-Monga/followers",
+              "following_url": "https://api.github.com/users/Naman-Monga/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Naman-Monga/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Naman-Monga/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Naman-Monga/subscriptions",
+              "organizations_url": "https://api.github.com/users/Naman-Monga/orgs",
+              "repos_url": "https://api.github.com/users/Naman-Monga/repos",
+              "events_url": "https://api.github.com/users/Naman-Monga/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Naman-Monga/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "8b072e8dfef6efb2c5c9f50734204ea9c8083eca",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/8b072e8dfef6efb2c5c9f50734204ea9c8083eca",
+                "html_url": "https://github.com/marlinprotocol/oyster-nitro-logger/commit/8b072e8dfef6efb2c5c9f50734204ea9c8083eca"
+              }
+            ]
+          },
+          {
+            "sha": "8b072e8dfef6efb2c5c9f50734204ea9c8083eca",
+            "node_id": "C_kwDOM2O5atoAKDhiMDcyZThkZmVmNmVmYjJjNWM5ZjUwNzM0MjA0ZWE5YzgwODNlY2E",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T11:42:56Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T11:42:56Z"
+              },
+              "message": "make the build files executable",
+              "tree": {
+                "sha": "d63bff1e02b02ce8724b9eab41c9c33e2fd35720",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/git/trees/d63bff1e02b02ce8724b9eab41c9c33e2fd35720"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/git/commits/8b072e8dfef6efb2c5c9f50734204ea9c8083eca",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/8b072e8dfef6efb2c5c9f50734204ea9c8083eca",
+            "html_url": "https://github.com/marlinprotocol/oyster-nitro-logger/commit/8b072e8dfef6efb2c5c9f50734204ea9c8083eca",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/8b072e8dfef6efb2c5c9f50734204ea9c8083eca/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "50ec1448cd4e746ccaf2a8b676f6541e46499cda",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-nitro-logger/commits/50ec1448cd4e746ccaf2a8b676f6541e46499cda",
+                "html_url": "https://github.com/marlinprotocol/oyster-nitro-logger/commit/50ec1448cd4e746ccaf2a8b676f6541e46499cda"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "kalypso-unified",
+    "branchCommits": [
+      {
+        "branch": "getRequest",
+        "commits": []
+      },
+      {
+        "branch": "listener-refined",
+        "commits": [
+          {
+            "sha": "e3dcd100c9d35bcafa459da7d5ca6a8d760850a1",
+            "node_id": "C_kwDOL1LVr9oAKGUzZGNkMTAwYzlkMzViY2FmYTQ1OWRhN2Q1Y2E2YThkNzYwODUwYTE",
+            "commit": {
+              "author": {
+                "name": "akshay",
+                "email": "akshay_111meher@hotmail.com",
+                "date": "2024-10-17T09:21:48Z"
+              },
+              "committer": {
+                "name": "akshay",
+                "email": "akshay_111meher@hotmail.com",
+                "date": "2024-10-17T09:21:48Z"
+              },
+              "message": "spell checks",
+              "tree": {
+                "sha": "bd6f72a927fe9b78d2c58a1d8c0c6bc6c8ff5d06",
+                "url": "https://api.github.com/repos/marlinprotocol/kalypso-unified/git/trees/bd6f72a927fe9b78d2c58a1d8c0c6bc6c8ff5d06"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/kalypso-unified/git/commits/e3dcd100c9d35bcafa459da7d5ca6a8d760850a1",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/kalypso-unified/commits/e3dcd100c9d35bcafa459da7d5ca6a8d760850a1",
+            "html_url": "https://github.com/marlinprotocol/kalypso-unified/commit/e3dcd100c9d35bcafa459da7d5ca6a8d760850a1",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/kalypso-unified/commits/e3dcd100c9d35bcafa459da7d5ca6a8d760850a1/comments",
+            "author": {
+              "login": "akshay111meher",
+              "id": 15356516,
+              "node_id": "MDQ6VXNlcjE1MzU2NTE2",
+              "avatar_url": "https://avatars.githubusercontent.com/u/15356516?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/akshay111meher",
+              "html_url": "https://github.com/akshay111meher",
+              "followers_url": "https://api.github.com/users/akshay111meher/followers",
+              "following_url": "https://api.github.com/users/akshay111meher/following{/other_user}",
+              "gists_url": "https://api.github.com/users/akshay111meher/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/akshay111meher/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/akshay111meher/subscriptions",
+              "organizations_url": "https://api.github.com/users/akshay111meher/orgs",
+              "repos_url": "https://api.github.com/users/akshay111meher/repos",
+              "events_url": "https://api.github.com/users/akshay111meher/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/akshay111meher/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "akshay111meher",
+              "id": 15356516,
+              "node_id": "MDQ6VXNlcjE1MzU2NTE2",
+              "avatar_url": "https://avatars.githubusercontent.com/u/15356516?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/akshay111meher",
+              "html_url": "https://github.com/akshay111meher",
+              "followers_url": "https://api.github.com/users/akshay111meher/followers",
+              "following_url": "https://api.github.com/users/akshay111meher/following{/other_user}",
+              "gists_url": "https://api.github.com/users/akshay111meher/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/akshay111meher/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/akshay111meher/subscriptions",
+              "organizations_url": "https://api.github.com/users/akshay111meher/orgs",
+              "repos_url": "https://api.github.com/users/akshay111meher/repos",
+              "events_url": "https://api.github.com/users/akshay111meher/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/akshay111meher/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "efa24ea3f03bce3ab5927cc879ea48c5c35b7193",
+                "url": "https://api.github.com/repos/marlinprotocol/kalypso-unified/commits/efa24ea3f03bce3ab5927cc879ea48c5c35b7193",
+                "html_url": "https://github.com/marlinprotocol/kalypso-unified/commit/efa24ea3f03bce3ab5927cc879ea48c5c35b7193"
+              }
+            ]
+          },
+          {
+            "sha": "efa24ea3f03bce3ab5927cc879ea48c5c35b7193",
+            "node_id": "C_kwDOL1LVr9oAKGVmYTI0ZWEzZjAzYmNlM2FiNTkyN2NjODc5ZWE0OGM1YzM1YjcxOTM",
+            "commit": {
+              "author": {
+                "name": "akshay",
+                "email": "akshay_111meher@hotmail.com",
+                "date": "2024-10-17T08:42:30Z"
+              },
+              "committer": {
+                "name": "akshay",
+                "email": "akshay_111meher@hotmail.com",
+                "date": "2024-10-17T08:42:30Z"
+              },
+              "message": "spell checks",
+              "tree": {
+                "sha": "fea8ea18742650c3df2f5ea216d976b063b98193",
+                "url": "https://api.github.com/repos/marlinprotocol/kalypso-unified/git/trees/fea8ea18742650c3df2f5ea216d976b063b98193"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/kalypso-unified/git/commits/efa24ea3f03bce3ab5927cc879ea48c5c35b7193",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/kalypso-unified/commits/efa24ea3f03bce3ab5927cc879ea48c5c35b7193",
+            "html_url": "https://github.com/marlinprotocol/kalypso-unified/commit/efa24ea3f03bce3ab5927cc879ea48c5c35b7193",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/kalypso-unified/commits/efa24ea3f03bce3ab5927cc879ea48c5c35b7193/comments",
+            "author": {
+              "login": "akshay111meher",
+              "id": 15356516,
+              "node_id": "MDQ6VXNlcjE1MzU2NTE2",
+              "avatar_url": "https://avatars.githubusercontent.com/u/15356516?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/akshay111meher",
+              "html_url": "https://github.com/akshay111meher",
+              "followers_url": "https://api.github.com/users/akshay111meher/followers",
+              "following_url": "https://api.github.com/users/akshay111meher/following{/other_user}",
+              "gists_url": "https://api.github.com/users/akshay111meher/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/akshay111meher/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/akshay111meher/subscriptions",
+              "organizations_url": "https://api.github.com/users/akshay111meher/orgs",
+              "repos_url": "https://api.github.com/users/akshay111meher/repos",
+              "events_url": "https://api.github.com/users/akshay111meher/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/akshay111meher/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "akshay111meher",
+              "id": 15356516,
+              "node_id": "MDQ6VXNlcjE1MzU2NTE2",
+              "avatar_url": "https://avatars.githubusercontent.com/u/15356516?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/akshay111meher",
+              "html_url": "https://github.com/akshay111meher",
+              "followers_url": "https://api.github.com/users/akshay111meher/followers",
+              "following_url": "https://api.github.com/users/akshay111meher/following{/other_user}",
+              "gists_url": "https://api.github.com/users/akshay111meher/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/akshay111meher/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/akshay111meher/subscriptions",
+              "organizations_url": "https://api.github.com/users/akshay111meher/orgs",
+              "repos_url": "https://api.github.com/users/akshay111meher/repos",
+              "events_url": "https://api.github.com/users/akshay111meher/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/akshay111meher/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "726e64cb07342033b7ef356e05a8271b949a9fc3",
+                "url": "https://api.github.com/repos/marlinprotocol/kalypso-unified/commits/726e64cb07342033b7ef356e05a8271b949a9fc3",
+                "html_url": "https://github.com/marlinprotocol/kalypso-unified/commit/726e64cb07342033b7ef356e05a8271b949a9fc3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "branch": "master",
+        "commits": []
+      }
+    ]
+  },
+  {
+    "repo": "oyster-attestation-verifier-risczero",
+    "branchCommits": [
+      {
+        "branch": "master",
+        "commits": []
+      }
+    ]
+  },
+  {
+    "repo": "oyster-control-plane",
+    "branchCommits": [
+      {
+        "branch": "arnav/enclave-status-endpoint",
+        "commits": []
+      },
+      {
+        "branch": "master",
+        "commits": [
+          {
+            "sha": "9d5ecf4292894ff21f00aa0deb23017d732d8570",
+            "node_id": "C_kwDOJNpsmdoAKDlkNWVjZjQyOTI4OTRmZjIxZjAwYWEwZGViMjMwMTdkNzMyZDg1NzA",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T08:35:42Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T08:35:42Z"
+              },
+              "message": "update reproducible builds info",
+              "tree": {
+                "sha": "af4eac4989c0b6502b2466bf8287bfb96f890c8d",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/af4eac4989c0b6502b2466bf8287bfb96f890c8d"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/9d5ecf4292894ff21f00aa0deb23017d732d8570",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/9d5ecf4292894ff21f00aa0deb23017d732d8570",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/9d5ecf4292894ff21f00aa0deb23017d732d8570",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/9d5ecf4292894ff21f00aa0deb23017d732d8570/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "2fc1ee13562de2533273e50d2aef93f99d3f8fc1",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/2fc1ee13562de2533273e50d2aef93f99d3f8fc1",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/2fc1ee13562de2533273e50d2aef93f99d3f8fc1"
+              }
+            ]
+          },
+          {
+            "sha": "2fc1ee13562de2533273e50d2aef93f99d3f8fc1",
+            "node_id": "C_kwDOJNpsmdoAKDJmYzFlZTEzNTYyZGUyNTMzMjczZTUwZDJhZWY5M2Y5OWQzZjhmYzE",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T08:18:38Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T08:18:38Z"
+              },
+              "message": "bump version",
+              "tree": {
+                "sha": "3a05552a2d67b38bf52d2f9dd5607084789878b7",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/3a05552a2d67b38bf52d2f9dd5607084789878b7"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/2fc1ee13562de2533273e50d2aef93f99d3f8fc1",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/2fc1ee13562de2533273e50d2aef93f99d3f8fc1",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/2fc1ee13562de2533273e50d2aef93f99d3f8fc1",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/2fc1ee13562de2533273e50d2aef93f99d3f8fc1/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "ba9371bab299f20bb3fdf231c0b1b72b23531d3d",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/ba9371bab299f20bb3fdf231c0b1b72b23531d3d",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/ba9371bab299f20bb3fdf231c0b1b72b23531d3d"
+              }
+            ]
+          },
+          {
+            "sha": "ba9371bab299f20bb3fdf231c0b1b72b23531d3d",
+            "node_id": "C_kwDOJNpsmdoAKGJhOTM3MWJhYjI5OWYyMGJiM2ZkZjIzMWMwYjFiNzJiMjM1MzFkM2Q",
+            "commit": {
+              "author": {
+                "name": "Roshan",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T08:14:22Z"
+              },
+              "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-10-17T08:14:22Z"
+              },
+              "message": "Merge pull request #71 from marlinprotocol/roshan/debug-mode\n\nDebug mode support",
+              "tree": {
+                "sha": "82d91596e8bfaa8376ac4e65c7b9d3acc554648e",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/82d91596e8bfaa8376ac4e65c7b9d3acc554648e"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/ba9371bab299f20bb3fdf231c0b1b72b23531d3d",
+              "comment_count": 0,
+              "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnEMdeCRC1aQ7uu5UhlAAAOMYQAKPtjaFlM5qA7BUiDWtbsXnw\noXtrgdGO+mPJHtiR1MZJRsdRhQy8eEf/qpSuQAUqxsFdNq9B5pe5LJuHkP7F/rFp\nBqljwxafYvejs/bVzIGdWpjcUxKO2T8X0skEtm6n0zQ7vBSShHWjb7IFaZRP+FMv\nMi2QIjfAqtyTIEiQE2JGVE8YKo06zSSChIOfINx4wVd4s7uQfrFqNvrh9oYVrgyt\nKCtZ0tGanQV426bK+18eF28u9MidasKn39qbO6NwV5NbeTiOtlcygUZWv37mewHV\n2hEijZYdLXFmuNrXSF4uP4H1/l0UI41dhw15NO/VvgCFyJTfFSFkVJ2y/vASoluR\nc13eVD7ytnF4oI/ZqEoyACJHWDbTEGSgXxiCXkzq40wiT37zv00OHdc6mQsidloU\n8NJfT0Z7+HqPNdgYDgyVRcnkVoyr6XI0uGr3jq7bBaPi+tcHYOYHNlBh4/F3jN6l\ngfUaVJZRKZRl4Y9vCHw9UKoYpO1UZhTaYsUcSRP5dabT/EdYFwc81gFZVSkQvSDB\ncrv2oLLWSIKIvsK+awV5ySjgHivtzuoSvFe1A1qN7fSIKC4WHq+Ka3h9kZLx6OIJ\n/9+aGqFgLTAZMtJp26/jxdjILhsHPewbsW9Bu3zhYKcEfLqcgakc1b8qVVg49nGI\n613FQALqQkr9XOnoLwOR\n=xClo\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 82d91596e8bfaa8376ac4e65c7b9d3acc554648e\nparent 09765cacd1ea5c8eac41e3c5f8234c697315f1a6\nparent 905d7e53970449fc8e6260176f469ef679e4f5ff\nauthor Roshan <thisisroshansmail@gmail.com> 1729152862 +0000\ncommitter GitHub <noreply@github.com> 1729152862 +0000\n\nMerge pull request #71 from marlinprotocol/roshan/debug-mode\n\nDebug mode support"
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/ba9371bab299f20bb3fdf231c0b1b72b23531d3d",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/ba9371bab299f20bb3fdf231c0b1b72b23531d3d",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/ba9371bab299f20bb3fdf231c0b1b72b23531d3d/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "web-flow",
+              "id": 19864447,
+              "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+              "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/web-flow",
+              "html_url": "https://github.com/web-flow",
+              "followers_url": "https://api.github.com/users/web-flow/followers",
+              "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+              "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+              "organizations_url": "https://api.github.com/users/web-flow/orgs",
+              "repos_url": "https://api.github.com/users/web-flow/repos",
+              "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/web-flow/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "09765cacd1ea5c8eac41e3c5f8234c697315f1a6",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/09765cacd1ea5c8eac41e3c5f8234c697315f1a6",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/09765cacd1ea5c8eac41e3c5f8234c697315f1a6"
+              },
+              {
+                "sha": "905d7e53970449fc8e6260176f469ef679e4f5ff",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/905d7e53970449fc8e6260176f469ef679e4f5ff",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/905d7e53970449fc8e6260176f469ef679e4f5ff"
+              }
+            ]
+          },
+          {
+            "sha": "905d7e53970449fc8e6260176f469ef679e4f5ff",
+            "node_id": "C_kwDOJNpsmdoAKDkwNWQ3ZTUzOTcwNDQ5ZmM4ZTYyNjAxNzZmNDY5ZWY2NzllNGY1ZmY",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T07:43:28Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T07:43:28Z"
+              },
+              "message": "implement debug mode for tuna images",
+              "tree": {
+                "sha": "82d91596e8bfaa8376ac4e65c7b9d3acc554648e",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/82d91596e8bfaa8376ac4e65c7b9d3acc554648e"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/905d7e53970449fc8e6260176f469ef679e4f5ff",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/905d7e53970449fc8e6260176f469ef679e4f5ff",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/905d7e53970449fc8e6260176f469ef679e4f5ff",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/905d7e53970449fc8e6260176f469ef679e4f5ff/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "43d88f5ce6bc760648156b61ace94d08928c08d1",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/43d88f5ce6bc760648156b61ace94d08928c08d1",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/43d88f5ce6bc760648156b61ace94d08928c08d1"
+              }
+            ]
+          },
+          {
+            "sha": "43d88f5ce6bc760648156b61ace94d08928c08d1",
+            "node_id": "C_kwDOJNpsmdoAKDQzZDg4ZjVjZTZiYzc2MDY0ODE1NmI2MWFjZTk0ZDA4OTI4YzA4ZDE",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T07:42:17Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T07:42:17Z"
+              },
+              "message": "implement debug mode for salmon images",
+              "tree": {
+                "sha": "d03c40cd02a50b34184460f66e6ced6152ddc79f",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/d03c40cd02a50b34184460f66e6ced6152ddc79f"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/43d88f5ce6bc760648156b61ace94d08928c08d1",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/43d88f5ce6bc760648156b61ace94d08928c08d1",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/43d88f5ce6bc760648156b61ace94d08928c08d1",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/43d88f5ce6bc760648156b61ace94d08928c08d1/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "4fda593e650212f58befba833b529d78f1fa79b3",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/4fda593e650212f58befba833b529d78f1fa79b3",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/4fda593e650212f58befba833b529d78f1fa79b3"
+              }
+            ]
+          },
+          {
+            "sha": "4fda593e650212f58befba833b529d78f1fa79b3",
+            "node_id": "C_kwDOJNpsmdoAKDRmZGE1OTNlNjUwMjEyZjU4YmVmYmE4MzNiNTI5ZDc4ZjFmYTc5YjM",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T07:42:05Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T07:42:05Z"
+              },
+              "message": "add test with job in debug mode",
+              "tree": {
+                "sha": "1a2ff1d62106f0d21a106635665817d4cda33e5d",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/1a2ff1d62106f0d21a106635665817d4cda33e5d"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/4fda593e650212f58befba833b529d78f1fa79b3",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/4fda593e650212f58befba833b529d78f1fa79b3",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/4fda593e650212f58befba833b529d78f1fa79b3",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/4fda593e650212f58befba833b529d78f1fa79b3/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "64278f15dfc1b7547c97675fd1c40ca8093727db",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/64278f15dfc1b7547c97675fd1c40ca8093727db",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/64278f15dfc1b7547c97675fd1c40ca8093727db"
+              }
+            ]
+          },
+          {
+            "sha": "64278f15dfc1b7547c97675fd1c40ca8093727db",
+            "node_id": "C_kwDOJNpsmdoAKDY0Mjc4ZjE1ZGZjMWI3NTQ3Yzk3Njc1ZmQxYzQwY2E4MDkzNzI3ZGI",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T07:40:42Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T07:40:42Z"
+              },
+              "message": "check debug flag in the tests",
+              "tree": {
+                "sha": "7a6a494f2f7810770093fc97486a114b26106e49",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/7a6a494f2f7810770093fc97486a114b26106e49"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/64278f15dfc1b7547c97675fd1c40ca8093727db",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/64278f15dfc1b7547c97675fd1c40ca8093727db",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/64278f15dfc1b7547c97675fd1c40ca8093727db",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/64278f15dfc1b7547c97675fd1c40ca8093727db/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "05f8462b7c90ac21820b7bde15b33f25145538fd",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/05f8462b7c90ac21820b7bde15b33f25145538fd",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/05f8462b7c90ac21820b7bde15b33f25145538fd"
+              }
+            ]
+          },
+          {
+            "sha": "05f8462b7c90ac21820b7bde15b33f25145538fd",
+            "node_id": "C_kwDOJNpsmdoAKDA1Zjg0NjJiN2M5MGFjMjE4MjBiN2JkZTE1YjMzZjI1MTQ1NTM4ZmQ",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T07:18:58Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-17T07:18:58Z"
+              },
+              "message": "store debug mode flag as well",
+              "tree": {
+                "sha": "cb9633a96d0188bbab52c29cc640c5b59b2e4f03",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/cb9633a96d0188bbab52c29cc640c5b59b2e4f03"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/05f8462b7c90ac21820b7bde15b33f25145538fd",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/05f8462b7c90ac21820b7bde15b33f25145538fd",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/05f8462b7c90ac21820b7bde15b33f25145538fd",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/05f8462b7c90ac21820b7bde15b33f25145538fd/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "7d6c1f9c14c6e995ffec255ff4ad86b949ca9852",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/7d6c1f9c14c6e995ffec255ff4ad86b949ca9852",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/7d6c1f9c14c6e995ffec255ff4ad86b949ca9852"
+              }
+            ]
+          },
+          {
+            "sha": "7d6c1f9c14c6e995ffec255ff4ad86b949ca9852",
+            "node_id": "C_kwDOJNpsmdoAKDdkNmMxZjljMTRjNmU5OTVmZmVjMjU1ZmY0YWQ4NmI5NDljYTk4NTI",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T12:29:03Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T12:29:03Z"
+              },
+              "message": "pass along debug flag till the leaf functions",
+              "tree": {
+                "sha": "2d485ea413e856fd1130628e1ee08f25f753b29f",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/2d485ea413e856fd1130628e1ee08f25f753b29f"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/7d6c1f9c14c6e995ffec255ff4ad86b949ca9852",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/7d6c1f9c14c6e995ffec255ff4ad86b949ca9852",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/7d6c1f9c14c6e995ffec255ff4ad86b949ca9852",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/7d6c1f9c14c6e995ffec255ff4ad86b949ca9852/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "17091fb9f9f55f4f2c775b9b18e3cdaaa64aa4d2",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/17091fb9f9f55f4f2c775b9b18e3cdaaa64aa4d2",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/17091fb9f9f55f4f2c775b9b18e3cdaaa64aa4d2"
+              }
+            ]
+          },
+          {
+            "sha": "17091fb9f9f55f4f2c775b9b18e3cdaaa64aa4d2",
+            "node_id": "C_kwDOJNpsmdoAKDE3MDkxZmI5ZjlmNTVmNGYyYzc3NWI5YjE4ZTNjZGFhYTY0YWE0ZDI",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T12:20:06Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T12:20:06Z"
+              },
+              "message": "prevent debug field from getting updated",
+              "tree": {
+                "sha": "b38fb9d4af366b7ac0256464484cb61970cfd19d",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/b38fb9d4af366b7ac0256464484cb61970cfd19d"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/17091fb9f9f55f4f2c775b9b18e3cdaaa64aa4d2",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/17091fb9f9f55f4f2c775b9b18e3cdaaa64aa4d2",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/17091fb9f9f55f4f2c775b9b18e3cdaaa64aa4d2",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/17091fb9f9f55f4f2c775b9b18e3cdaaa64aa4d2/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "91a97cfe5b21baa6657b6cfe3e8964d81cdfb16d",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/91a97cfe5b21baa6657b6cfe3e8964d81cdfb16d",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/91a97cfe5b21baa6657b6cfe3e8964d81cdfb16d"
+              }
+            ]
+          },
+          {
+            "sha": "91a97cfe5b21baa6657b6cfe3e8964d81cdfb16d",
+            "node_id": "C_kwDOJNpsmdoAKDkxYTk3Y2ZlNWIyMWJhYTY2NTdiNmNmZTNlODk2NGQ4MWNkZmIxNmQ",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T12:17:40Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T12:17:40Z"
+              },
+              "message": "set debug field based on metadata",
+              "tree": {
+                "sha": "e96ea4abde7b60471dcc98e2f5ae1391a22fdbca",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/e96ea4abde7b60471dcc98e2f5ae1391a22fdbca"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/91a97cfe5b21baa6657b6cfe3e8964d81cdfb16d",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/91a97cfe5b21baa6657b6cfe3e8964d81cdfb16d",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/91a97cfe5b21baa6657b6cfe3e8964d81cdfb16d",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/91a97cfe5b21baa6657b6cfe3e8964d81cdfb16d/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "c5728ae918415455ab74eaa9e23c6cd34d31706c",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/c5728ae918415455ab74eaa9e23c6cd34d31706c",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/c5728ae918415455ab74eaa9e23c6cd34d31706c"
+              }
+            ]
+          },
+          {
+            "sha": "c5728ae918415455ab74eaa9e23c6cd34d31706c",
+            "node_id": "C_kwDOJNpsmdoAKGM1NzI4YWU5MTg0MTU0NTVhYjc0ZWFhOWUyM2M2Y2QzNGQzMTcwNmM",
+            "commit": {
+              "author": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T12:16:11Z"
+              },
+              "committer": {
+                "name": "Roshan Raghupathy",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T12:16:11Z"
+              },
+              "message": "add a debug field for job state",
+              "tree": {
+                "sha": "7aa3446128f48c2f6c5e37c2de2226e7ce2639d8",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/trees/7aa3446128f48c2f6c5e37c2de2226e7ce2639d8"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/git/commits/c5728ae918415455ab74eaa9e23c6cd34d31706c",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/c5728ae918415455ab74eaa9e23c6cd34d31706c",
+            "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/c5728ae918415455ab74eaa9e23c6cd34d31706c",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/c5728ae918415455ab74eaa9e23c6cd34d31706c/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "09765cacd1ea5c8eac41e3c5f8234c697315f1a6",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-control-plane/commits/09765cacd1ea5c8eac41e3c5f8234c697315f1a6",
+                "html_url": "https://github.com/marlinprotocol/oyster-control-plane/commit/09765cacd1ea5c8eac41e3c5f8234c697315f1a6"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "simple_store",
+    "branchCommits": [
+      {
+        "branch": "master",
+        "commits": [
+          {
+            "sha": "d7df0ccaa48157ecd81f481fcbb2068b9a9d747b",
+            "node_id": "C_kwDOM9L07NoAKGQ3ZGYwY2NhYTQ4MTU3ZWNkODFmNDgxZmNiYjIwNjhiOWE5ZDc0N2I",
+            "commit": {
+              "author": {
+                "name": "akshay",
+                "email": "akshay_111meher@hotmail.com",
+                "date": "2024-10-17T08:26:14Z"
+              },
+              "committer": {
+                "name": "akshay",
+                "email": "akshay_111meher@hotmail.com",
+                "date": "2024-10-17T08:26:14Z"
+              },
+              "message": "update timeout",
+              "tree": {
+                "sha": "374f5fa6824b68de1a3ea03997967c2d45a8bf65",
+                "url": "https://api.github.com/repos/marlinprotocol/simple_store/git/trees/374f5fa6824b68de1a3ea03997967c2d45a8bf65"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/simple_store/git/commits/d7df0ccaa48157ecd81f481fcbb2068b9a9d747b",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/simple_store/commits/d7df0ccaa48157ecd81f481fcbb2068b9a9d747b",
+            "html_url": "https://github.com/marlinprotocol/simple_store/commit/d7df0ccaa48157ecd81f481fcbb2068b9a9d747b",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/simple_store/commits/d7df0ccaa48157ecd81f481fcbb2068b9a9d747b/comments",
+            "author": {
+              "login": "akshay111meher",
+              "id": 15356516,
+              "node_id": "MDQ6VXNlcjE1MzU2NTE2",
+              "avatar_url": "https://avatars.githubusercontent.com/u/15356516?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/akshay111meher",
+              "html_url": "https://github.com/akshay111meher",
+              "followers_url": "https://api.github.com/users/akshay111meher/followers",
+              "following_url": "https://api.github.com/users/akshay111meher/following{/other_user}",
+              "gists_url": "https://api.github.com/users/akshay111meher/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/akshay111meher/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/akshay111meher/subscriptions",
+              "organizations_url": "https://api.github.com/users/akshay111meher/orgs",
+              "repos_url": "https://api.github.com/users/akshay111meher/repos",
+              "events_url": "https://api.github.com/users/akshay111meher/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/akshay111meher/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "akshay111meher",
+              "id": 15356516,
+              "node_id": "MDQ6VXNlcjE1MzU2NTE2",
+              "avatar_url": "https://avatars.githubusercontent.com/u/15356516?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/akshay111meher",
+              "html_url": "https://github.com/akshay111meher",
+              "followers_url": "https://api.github.com/users/akshay111meher/followers",
+              "following_url": "https://api.github.com/users/akshay111meher/following{/other_user}",
+              "gists_url": "https://api.github.com/users/akshay111meher/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/akshay111meher/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/akshay111meher/subscriptions",
+              "organizations_url": "https://api.github.com/users/akshay111meher/orgs",
+              "repos_url": "https://api.github.com/users/akshay111meher/repos",
+              "events_url": "https://api.github.com/users/akshay111meher/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/akshay111meher/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "5c4ff9b95b7e3d772f2cb8b02e5883dd91b090d5",
+                "url": "https://api.github.com/repos/marlinprotocol/simple_store/commits/5c4ff9b95b7e3d772f2cb8b02e5883dd91b090d5",
+                "html_url": "https://github.com/marlinprotocol/simple_store/commit/5c4ff9b95b7e3d772f2cb8b02e5883dd91b090d5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "aztec-packages",
+    "branchCommits": [
+      {
+        "branch": "04-12-test_spike_node_test_runner",
+        "commits": []
+      },
+      {
+        "branch": "06-03-refactor_remove_mempool_wipe",
+        "commits": []
+      },
+      {
+        "branch": "06-05-feat_privacy_set_analyzer",
+        "commits": []
+      },
+      {
+        "branch": "08-15-_do_not_merge_feat_optimizing_sharedimmutable",
+        "commits": []
+      },
+      {
+        "branch": "09-17-feat_bytes_to_fields_and_back",
+        "commits": []
+      },
+      {
+        "branch": "09-19-feat_dex_draft",
+        "commits": []
+      },
+      {
+        "branch": "10-03-feat_addressing_partial_notes_pr_feedback",
+        "commits": []
+      },
+      {
+        "branch": "ab/benchmark-do-not-remove-array-get-out-of-bounds",
+        "commits": []
+      },
+      {
+        "branch": "ab/benchmark-index-out-of-bounds-checks",
+        "commits": []
+      },
+      {
+        "branch": "ad/abandon",
+        "commits": []
+      },
+      {
+        "branch": "ad/adamnet",
+        "commits": []
+      },
+      {
+        "branch": "ad/base-for-running-gh-undisturbed",
+        "commits": []
+      },
+      {
+        "branch": "ad/better-error-retry",
+        "commits": []
+      },
+      {
+        "branch": "ad/bye-recursion-in-private-kernel-land",
+        "commits": []
+      },
+      {
+        "branch": "ad/cache-execution-result",
+        "commits": []
+      },
+      {
+        "branch": "ad/chore/cached-proving",
+        "commits": []
+      },
+      {
+        "branch": "ad/chore/rerun/arm/ci",
+        "commits": []
+      },
+      {
+        "branch": "ad/chore-test-change",
+        "commits": []
+      },
+      {
+        "branch": "ad/ci/dont-cache-submodules",
+        "commits": []
+      },
+      {
+        "branch": "ad/debugging-kind",
+        "commits": []
+      },
+      {
+        "branch": "ad/earthly-new-scheduler",
+        "commits": []
+      },
+      {
+        "branch": "ad/fake-base-mem-offsets",
+        "commits": []
+      },
+      {
+        "branch": "ad/feat/bb-debug-log",
+        "commits": []
+      },
+      {
+        "branch": "ad/fix/apt/xtradeb",
+        "commits": []
+      },
+      {
+        "branch": "ad/fix/ci",
+        "commits": []
+      },
+      {
+        "branch": "ad/fix/lmdb/store/close",
+        "commits": []
+      },
+      {
+        "branch": "ad/fix/nightly-kind-test-redux",
+        "commits": []
+      },
+      {
+        "branch": "ad/fix-browser-test-app",
+        "commits": []
+      },
+      {
+        "branch": "ad/fix-spartan-ci-yml",
+        "commits": []
+      },
+      {
+        "branch": "ad/ipa-round-fixes",
+        "commits": []
+      }
+    ]
+  },
+  {
+    "repo": "github-activity",
+    "branchCommits": [
+      {
+        "branch": "master",
+        "commits": [
+          {
+            "sha": "e37950160126cfba725c45641f762349aabb225b",
+            "node_id": "C_kwDONBiUGtoAKGUzNzk1MDE2MDEyNmNmYmE3MjVjNDU2NDFmNzYyMzQ5YWFiYjIyNWI",
+            "commit": {
+              "author": {
+                "name": "Swapnil Sagar",
+                "email": "swapnil.swapnil.sagar946@gmail.com",
+                "date": "2024-10-17T06:16:56Z"
+              },
+              "committer": {
+                "name": "Swapnil Sagar",
+                "email": "swapnil.swapnil.sagar946@gmail.com",
+                "date": "2024-10-17T06:16:56Z"
+              },
+              "message": "Commits logger",
+              "tree": {
+                "sha": "ffc3bddef5da58e56f019d59e1582c1db6451de9",
+                "url": "https://api.github.com/repos/marlinprotocol/github-activity/git/trees/ffc3bddef5da58e56f019d59e1582c1db6451de9"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/github-activity/git/commits/e37950160126cfba725c45641f762349aabb225b",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/github-activity/commits/e37950160126cfba725c45641f762349aabb225b",
+            "html_url": "https://github.com/marlinprotocol/github-activity/commit/e37950160126cfba725c45641f762349aabb225b",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/github-activity/commits/e37950160126cfba725c45641f762349aabb225b/comments",
+            "author": {
+              "login": "Swapnil-Sagar",
+              "id": 36479154,
+              "node_id": "MDQ6VXNlcjM2NDc5MTU0",
+              "avatar_url": "https://avatars.githubusercontent.com/u/36479154?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Swapnil-Sagar",
+              "html_url": "https://github.com/Swapnil-Sagar",
+              "followers_url": "https://api.github.com/users/Swapnil-Sagar/followers",
+              "following_url": "https://api.github.com/users/Swapnil-Sagar/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Swapnil-Sagar/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Swapnil-Sagar/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Swapnil-Sagar/subscriptions",
+              "organizations_url": "https://api.github.com/users/Swapnil-Sagar/orgs",
+              "repos_url": "https://api.github.com/users/Swapnil-Sagar/repos",
+              "events_url": "https://api.github.com/users/Swapnil-Sagar/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Swapnil-Sagar/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "Swapnil-Sagar",
+              "id": 36479154,
+              "node_id": "MDQ6VXNlcjM2NDc5MTU0",
+              "avatar_url": "https://avatars.githubusercontent.com/u/36479154?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Swapnil-Sagar",
+              "html_url": "https://github.com/Swapnil-Sagar",
+              "followers_url": "https://api.github.com/users/Swapnil-Sagar/followers",
+              "following_url": "https://api.github.com/users/Swapnil-Sagar/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Swapnil-Sagar/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Swapnil-Sagar/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Swapnil-Sagar/subscriptions",
+              "organizations_url": "https://api.github.com/users/Swapnil-Sagar/orgs",
+              "repos_url": "https://api.github.com/users/Swapnil-Sagar/repos",
+              "events_url": "https://api.github.com/users/Swapnil-Sagar/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Swapnil-Sagar/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "oyster-contracts",
+    "branchCommits": [
+      {
+        "branch": "master",
+        "commits": []
+      },
+      {
+        "branch": "rajat/job-subs-fix",
+        "commits": []
+      },
+      {
+        "branch": "rajat/job-subs-withdraw-fix",
+        "commits": []
+      },
+      {
+        "branch": "rajat/secret-store",
+        "commits": [
+          {
+            "sha": "87f5183760759f685e31ef4c0c370c296726f77c",
+            "node_id": "C_kwDOLmG5l9oAKDg3ZjUxODM3NjA3NTlmNjg1ZTMxZWY0YzBjMzcwYzI5NjcyNmY3N2M",
+            "commit": {
+              "author": {
+                "name": "rajatlko13",
+                "email": "rajatlko13@gmail.com",
+                "date": "2024-10-17T06:04:12Z"
+              },
+              "committer": {
+                "name": "rajatlko13",
+                "email": "rajatlko13@gmail.com",
+                "date": "2024-10-17T06:04:12Z"
+              },
+              "message": "review fixes for usdc payment for secret",
+              "tree": {
+                "sha": "4b5526913d3d55df329e874d12714e739c24e3e9",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-contracts/git/trees/4b5526913d3d55df329e874d12714e739c24e3e9"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/oyster-contracts/git/commits/87f5183760759f685e31ef4c0c370c296726f77c",
+              "comment_count": 0,
+              "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/oyster-contracts/commits/87f5183760759f685e31ef4c0c370c296726f77c",
+            "html_url": "https://github.com/marlinprotocol/oyster-contracts/commit/87f5183760759f685e31ef4c0c370c296726f77c",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/oyster-contracts/commits/87f5183760759f685e31ef4c0c370c296726f77c/comments",
+            "author": {
+              "login": "rajatlko13",
+              "id": 42701222,
+              "node_id": "MDQ6VXNlcjQyNzAxMjIy",
+              "avatar_url": "https://avatars.githubusercontent.com/u/42701222?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/rajatlko13",
+              "html_url": "https://github.com/rajatlko13",
+              "followers_url": "https://api.github.com/users/rajatlko13/followers",
+              "following_url": "https://api.github.com/users/rajatlko13/following{/other_user}",
+              "gists_url": "https://api.github.com/users/rajatlko13/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/rajatlko13/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/rajatlko13/subscriptions",
+              "organizations_url": "https://api.github.com/users/rajatlko13/orgs",
+              "repos_url": "https://api.github.com/users/rajatlko13/repos",
+              "events_url": "https://api.github.com/users/rajatlko13/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/rajatlko13/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "rajatlko13",
+              "id": 42701222,
+              "node_id": "MDQ6VXNlcjQyNzAxMjIy",
+              "avatar_url": "https://avatars.githubusercontent.com/u/42701222?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/rajatlko13",
+              "html_url": "https://github.com/rajatlko13",
+              "followers_url": "https://api.github.com/users/rajatlko13/followers",
+              "following_url": "https://api.github.com/users/rajatlko13/following{/other_user}",
+              "gists_url": "https://api.github.com/users/rajatlko13/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/rajatlko13/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/rajatlko13/subscriptions",
+              "organizations_url": "https://api.github.com/users/rajatlko13/orgs",
+              "repos_url": "https://api.github.com/users/rajatlko13/repos",
+              "events_url": "https://api.github.com/users/rajatlko13/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/rajatlko13/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "a2dca16b3f76802e80256bad7449187f88f71b90",
+                "url": "https://api.github.com/repos/marlinprotocol/oyster-contracts/commits/a2dca16b3f76802e80256bad7449187f88f71b90",
+                "html_url": "https://github.com/marlinprotocol/oyster-contracts/commit/a2dca16b3f76802e80256bad7449187f88f71b90"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "branch": "rajat/solhint",
+        "commits": []
+      },
+      {
+        "branch": "vikrant/sepolia-test-2",
+        "commits": []
+      }
+    ]
+  },
+  {
+    "repo": "release-pipeline",
+    "branchCommits": [
+      {
+        "branch": "master",
+        "commits": [
+          {
+            "sha": "774292c31a8c198587ee1a88b454028aa55d14fa",
+            "node_id": "C_kwDOE1v79toAKDc3NDI5MmMzMWE4YzE5ODU4N2VlMWE4OGI0NTQwMjhhYTU1ZDE0ZmE",
+            "commit": {
+              "author": {
+                "name": "Roshan",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T11:26:45Z"
+              },
+              "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-10-16T11:26:45Z"
+              },
+              "message": "Update nitro-log-stream.yml",
+              "tree": {
+                "sha": "a9a8b63867895ae5a431e94c3f7de25f7b33dbc6",
+                "url": "https://api.github.com/repos/marlinprotocol/release-pipeline/git/trees/a9a8b63867895ae5a431e94c3f7de25f7b33dbc6"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/release-pipeline/git/commits/774292c31a8c198587ee1a88b454028aa55d14fa",
+              "comment_count": 0,
+              "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnD6L1CRC1aQ7uu5UhlAAAyI4QAB3a+H/l07cV0sqziE5WM7K7\nRkGSiWgNeirC4ALeshX2O+vMp8axSS9bFGwvGvst8r2tTaDDywUjAWoDmm3C2uGe\nyyR9Ij9NL9mZ1Hij87HYEXfvkVgquQcT7NeovdvVMr8cF5PWs2DeDDPQy8QipF1D\nqPHklyLj++sl3/Fx7Rk+GN+Ut3BZqTT+HvIVXkItpsYL5dbm5fQzBDVSvqGqvWFl\nCv8WY9jVllFIqfljEUnpr4h/hKrzd5tkW+3NdADP4AwmXDirNV6gpepoJwwmOVwK\nqc5oK4KnYdR6jsfhbmVxfpGZEtEQhUpPF44whQbdyxf53fEQsR+/8koqNIyB7+m/\npKHGGqfFwZYy52/XBiIQegMZdoq8j5VobmG3sTJ/ywkn/dlH6jMdPwO2/dKl5Pez\n6G3/TE4Pq1aHSuWyc2qUiSrEf9xbI3ogjtC0dU/oGviDq1kGuinHBh1EnmZnQ7mL\nus/n4IrYukjl2JE10pR1PpPTGtY05wFes6zgR5KC1J9AiggybjP4NHk3Y1ldMuGF\nBt5TShlliW/yV6Jp0RjIvm6xkf+lzeXVYUyTem0O6I/Y5U0yz9n+1WLFQyKOC8tJ\np91wveQ5l8hHRdprEBqLcb37hX2//shKAnwAeD8JpIaC4OZAef0U/fhaUwX7TAKh\nTIbguj2OJVL0pFOaTWGb\n=J18x\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a9a8b63867895ae5a431e94c3f7de25f7b33dbc6\nparent ae3b3652833fd6122c63af000fdb3fb80b688a7e\nauthor Roshan <thisisroshansmail@gmail.com> 1729078005 +0000\ncommitter GitHub <noreply@github.com> 1729078005 +0000\n\nUpdate nitro-log-stream.yml"
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/release-pipeline/commits/774292c31a8c198587ee1a88b454028aa55d14fa",
+            "html_url": "https://github.com/marlinprotocol/release-pipeline/commit/774292c31a8c198587ee1a88b454028aa55d14fa",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/release-pipeline/commits/774292c31a8c198587ee1a88b454028aa55d14fa/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "web-flow",
+              "id": 19864447,
+              "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+              "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/web-flow",
+              "html_url": "https://github.com/web-flow",
+              "followers_url": "https://api.github.com/users/web-flow/followers",
+              "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+              "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+              "organizations_url": "https://api.github.com/users/web-flow/orgs",
+              "repos_url": "https://api.github.com/users/web-flow/repos",
+              "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/web-flow/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "ae3b3652833fd6122c63af000fdb3fb80b688a7e",
+                "url": "https://api.github.com/repos/marlinprotocol/release-pipeline/commits/ae3b3652833fd6122c63af000fdb3fb80b688a7e",
+                "html_url": "https://github.com/marlinprotocol/release-pipeline/commit/ae3b3652833fd6122c63af000fdb3fb80b688a7e"
+              }
+            ]
+          },
+          {
+            "sha": "ae3b3652833fd6122c63af000fdb3fb80b688a7e",
+            "node_id": "C_kwDOE1v79toAKGFlM2IzNjUyODMzZmQ2MTIyYzYzYWYwMDBmZGIzZmI4MGI2ODhhN2U",
+            "commit": {
+              "author": {
+                "name": "Roshan",
+                "email": "thisisroshansmail@gmail.com",
+                "date": "2024-10-16T11:23:40Z"
+              },
+              "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-10-16T11:23:40Z"
+              },
+              "message": "Merge pull request #3 from marlinprotocol/logger-workflow\n\nadded workflow for nitro logger",
+              "tree": {
+                "sha": "fcd3fadb39de40e224e97928b3ecaf0bd38fa967",
+                "url": "https://api.github.com/repos/marlinprotocol/release-pipeline/git/trees/fcd3fadb39de40e224e97928b3ecaf0bd38fa967"
+              },
+              "url": "https://api.github.com/repos/marlinprotocol/release-pipeline/git/commits/ae3b3652833fd6122c63af000fdb3fb80b688a7e",
+              "comment_count": 0,
+              "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnD6I8CRC1aQ7uu5UhlAAAj50QABxT4F8u3XPZVJnHjZnICRP3\n9nDTu72VL+2j4WszgeZnjQ0ffsVx7GGVi0p6RkGnjpM0TDk4okXGuBjN4lzc1xyZ\n46M1u4/NtMlhh0Jkg1abGCgqEtH46dU8x423/x7APMG4vCufSyRbFB8w28cqBS3p\n5yvaP57HgROG67fZetDSty4OXnmoDcq+IlZ6x2kKP3G8xoS6xkvgo0vjNlqBrh1R\n2dONHPG2LGDSC1/2TVvyklhuR6aQF2ojqxLO6mzceY1t2tv33oV7NXa9matlKlLO\nuC6+FqPYK6DSGRtXeUtVOgjUjx6APAmavxTdFXS7yn7WFALrObXugp81yPXmpnJT\n9lF+Ek8ofORVlDQg7CgkCkAuUmKLeKBIALlW9+ovMiJ6TqwNKWXuThsuAim3XGvW\n/i+PEJMkO60oW9i5bGyJBPoePwpHgZ38P1JG15RXMoFClpQB5ov4u/1q2N1pYquz\nw6CJSTWtn+SRmKXoiVlmfjuHjy9LQIWGUi+E6rro9u9uKxpJtzjFW5xucWMPR2c5\naGGBmqdV5VrsUGR2kHrMmQZJW9GX31tM39HhUxcGL53MDbXO1dMTsc0yPB6fufJb\nGDJkk7ApPCR1FC4YcFE9a8DuuXNUnO/c7QnDoGOdjhrwTPAlAf8Z8pynbnM4UC+g\n3g4WmpZn+pLHHAZD6FRm\n=aHOO\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree fcd3fadb39de40e224e97928b3ecaf0bd38fa967\nparent 214c54f6e7d3eb76ceaa5e2f5b5944eca2b03d39\nparent fc4bb18365a8c1291466b199706a80c162e91da9\nauthor Roshan <thisisroshansmail@gmail.com> 1729077820 +0000\ncommitter GitHub <noreply@github.com> 1729077820 +0000\n\nMerge pull request #3 from marlinprotocol/logger-workflow\n\nadded workflow for nitro logger"
+              }
+            },
+            "url": "https://api.github.com/repos/marlinprotocol/release-pipeline/commits/ae3b3652833fd6122c63af000fdb3fb80b688a7e",
+            "html_url": "https://github.com/marlinprotocol/release-pipeline/commit/ae3b3652833fd6122c63af000fdb3fb80b688a7e",
+            "comments_url": "https://api.github.com/repos/marlinprotocol/release-pipeline/commits/ae3b3652833fd6122c63af000fdb3fb80b688a7e/comments",
+            "author": {
+              "login": "roshanr95",
+              "id": 4298494,
+              "node_id": "MDQ6VXNlcjQyOTg0OTQ=",
+              "avatar_url": "https://avatars.githubusercontent.com/u/4298494?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/roshanr95",
+              "html_url": "https://github.com/roshanr95",
+              "followers_url": "https://api.github.com/users/roshanr95/followers",
+              "following_url": "https://api.github.com/users/roshanr95/following{/other_user}",
+              "gists_url": "https://api.github.com/users/roshanr95/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/roshanr95/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/roshanr95/subscriptions",
+              "organizations_url": "https://api.github.com/users/roshanr95/orgs",
+              "repos_url": "https://api.github.com/users/roshanr95/repos",
+              "events_url": "https://api.github.com/users/roshanr95/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/roshanr95/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "committer": {
+              "login": "web-flow",
+              "id": 19864447,
+              "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+              "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/web-flow",
+              "html_url": "https://github.com/web-flow",
+              "followers_url": "https://api.github.com/users/web-flow/followers",
+              "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+              "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+              "organizations_url": "https://api.github.com/users/web-flow/orgs",
+              "repos_url": "https://api.github.com/users/web-flow/repos",
+              "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/web-flow/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "parents": [
+              {
+                "sha": "214c54f6e7d3eb76ceaa5e2f5b5944eca2b03d39",
+                "url": "https://api.github.com/repos/marlinprotocol/release-pipeline/commits/214c54f6e7d3eb76ceaa5e2f5b5944eca2b03d39",
+                "html_url": "https://github.com/marlinprotocol/release-pipeline/commit/214c54f6e7d3eb76ceaa5e2f5b5944eca2b03d39"
+              },
+              {
+                "sha": "fc4bb18365a8c1291466b199706a80c162e91da9",
+                "url": "https://api.github.com/repos/marlinprotocol/release-pipeline/commits/fc4bb18365a8c1291466b199706a80c162e91da9",
+                "html_url": "https://github.com/marlinprotocol/release-pipeline/commit/fc4bb18365a8c1291466b199706a80c162e91da9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "branch": "openWeaver-arm",
+        "commits": []
+      }
+    ]
+  }
+]

@@ -53,7 +53,9 @@ const getOrgCommits = async (org, since) => {
     console.log('Empty repositories (no branches):', emptyRepos)
   }
 
-  fs.writeFileSync('./commits.json', JSON.stringify(orgCommits, null, 2))
+  if (repos.length > 0) {
+    fs.writeFileSync('./commits.json', JSON.stringify(orgCommits, null, 2))
+  }
 
   writeLastCheck(new Date())
   return orgCommits
