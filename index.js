@@ -14,7 +14,21 @@ const DISCORD_WEBHOOK_URL = config.discordWebhook
 
 const POLLING_INTERVAL = 1 * 60 * 1000
 
-const sendToDiscord = async (message) => {
+const sendToDiscord = async (repoName, branchName, commitLogs) => {
+  const message =
+    `**Repository**: ${repoName}\n**Branch**: ${branchName}\n\n` +
+    commitLogs
+      .map((commit) => {
+        return (
+          `**Commit Message**: ${commit.commit.message}\n` +
+          `**Author**: ${commit.commit.author.name} (<@${commit.author.login}>)\n` +
+          `**Date**: ${new Date(commit.commit.author.date).toLocaleString()}\n` +
+          `**Link**: [View Commit](${commit.html_url})\n` +
+          `---`
+        )
+      })
+      .join('\n')
+
   try {
     await axios.post(DISCORD_WEBHOOK_URL, {
       content: message
@@ -51,11 +65,9 @@ const getOrgCommits = async (org, since) => {
         if (commits.length === 0) {
           console.log(`No recent commits on branch ${branch.name} of repo ${repoInfo.name}`)
         } else {
-          const commitMessages = commits.map((commit) => `- ${commit.commit.message}`).join('\n')
-          const message = `Commits on branch ${branch.name} of repo ${repoInfo.name}:\n${commitMessages}`
-
-          // Send commit logs to Discord
-          await sendToDiscord(message)
+          console.log(
+            `Fetched ${commits.length} commits on branch ${branch.name} of repo ${repoInfo.name}`
+          )
         }
         return { branch: branch.name, commits }
       })
@@ -110,6 +122,11 @@ const getBranchCommits = async (owner, repo, branch, since) => {
         }
       }
     )
+
+    if (commits.data.length > 0) {
+      await sendToDiscord(repo, branch, commits.data)
+    }
+
     return commits.data
   } catch (error) {
     console.error(`Error fetching commits for branch ${branch} of ${owner}/${repo}:`, error.message)
