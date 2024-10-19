@@ -1,15 +1,29 @@
 import 'dotenv/config'
 import fs from 'fs'
 import { Octokit } from 'octokit'
+import axios from 'axios'
 
 const config = JSON.parse(fs.readFileSync('./config.json'))
 
 const octokit = new Octokit({
   auth: process.env.GITHUB_ACCESS_TOKEN
 })
+
 const ORG = config.org
+const DISCORD_WEBHOOK_URL = config.discordWebhook
 
 const POLLING_INTERVAL = 1 * 60 * 1000
+
+const sendToDiscord = async (message) => {
+  try {
+    await axios.post(DISCORD_WEBHOOK_URL, {
+      content: message
+    })
+    console.log('Commit logs sent to Discord')
+  } catch (error) {
+    console.error('Error sending message to Discord:', error.message)
+  }
+}
 
 const getOrgCommits = async (org, since) => {
   const repos = await getOrgRepos(org, since)
@@ -37,7 +51,11 @@ const getOrgCommits = async (org, since) => {
         if (commits.length === 0) {
           console.log(`No recent commits on branch ${branch.name} of repo ${repoInfo.name}`)
         } else {
-          console.log(`Commits on branch ${branch.name} of repo ${repoInfo.name}:`, commits)
+          const commitMessages = commits.map((commit) => `- ${commit.commit.message}`).join('\n')
+          const message = `Commits on branch ${branch.name} of repo ${repoInfo.name}:\n${commitMessages}`
+
+          // Send commit logs to Discord
+          await sendToDiscord(message)
         }
         return { branch: branch.name, commits }
       })
