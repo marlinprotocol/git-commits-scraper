@@ -22,9 +22,11 @@ const sendToDiscord = async (repoName, branchName, commitLogs) => {
         return (
           `**Commit Message**: ${commit.commit.message}\n` +
           `**Author**: ${commit.commit.author.name} (<@${commit.author.login}>)\n` +
-          `**Date**: ${new Date(commit.commit.author.date).toLocaleString()}\n` +
-          `**Link**: [View Commit](${commit.html_url})\n` +
-          `---`
+          `**Date**: ${new Date(commit.commit.author.date).toLocaleString('en-IN', {
+            timeZone: 'Asia/Kolkata'
+          })} IST\n` +
+          `**Link**: ${commit.html_url}\n` +
+          `--------------`
         )
       })
       .join('\n')
