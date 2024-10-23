@@ -15,29 +15,26 @@ const DISCORD_WEBHOOK_URL = config.discordWebhook
 const POLLING_INTERVAL = 1 * 60 * 1000
 
 const sendToDiscord = async (repoName, branchName, commitLogs) => {
-  const message =
-    `**Repository**: ${repoName}\n**Branch**: ${branchName}\n\n` +
-    commitLogs
-      .map((commit) => {
-        return (
-          `**Commit Message**: ${commit.commit.message}\n` +
-          `**Author**: ${commit.commit.author.name} (<@${commit.author.login}>)\n` +
-          `**Date**: ${new Date(commit.commit.author.date).toLocaleString('en-IN', {
-            timeZone: 'Asia/Kolkata'
-          })} IST\n` +
-          `**Link**: ${commit.html_url}\n` +
-          `--------------`
-        )
-      })
-      .join('\n')
+  for (const commit of commitLogs) {
+    const message =
+      `**Repository**: ${repoName}\n` +
+      `**Branch**: ${branchName}\n` +
+      `**Commit Message**: ${commit.commit.message}\n` +
+      `**Author**: ${commit.commit.author.name} (<@${commit.author.login}>)\n` +
+      `**Date**: ${new Date(commit.commit.author.date).toLocaleString('en-IN', {
+        timeZone: 'Asia/Kolkata'
+      })} IST \n` +
+      `**Link**: ${commit.html_url}\n` +
+      `-----------------------------------`
 
-  try {
-    await axios.post(DISCORD_WEBHOOK_URL, {
-      content: message
-    })
-    console.log('Commit logs sent to Discord')
-  } catch (error) {
-    console.error('Error sending message to Discord:', error.message)
+    try {
+      await axios.post(DISCORD_WEBHOOK_URL, {
+        content: message
+      })
+      console.log(`Commit log sent to Discord for commit: ${commit.commit.message}`)
+    } catch (error) {
+      console.error('Error sending message to Discord:', error.message)
+    }
   }
 }
 
