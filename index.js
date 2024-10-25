@@ -16,16 +16,27 @@ const POLLING_INTERVAL = 1 * 60 * 1000
 
 const sendToDiscord = async (repoName, branchName, commitLogs) => {
   for (const commit of commitLogs) {
+    // Create a message for each individual commit
+
+    const formattedDate = new Date(commit.commit.author.date)
+    const formattedUTC =
+      `${String(formattedDate.getUTCDate()).padStart(2, '0')}/` +
+      `${String(formattedDate.getUTCMonth() + 1).padStart(2, '0')}/` +
+      `${formattedDate.getUTCFullYear()}, ` +
+      `${String(formattedDate.getUTCHours()).padStart(2, '0')}:` +
+      `${String(formattedDate.getUTCMinutes()).padStart(2, '0')}:` +
+      `${String(formattedDate.getUTCSeconds()).padStart(2, '0')} UTC`
+
     const message =
       `**Repository**: ${repoName}\n` +
       `**Branch**: ${branchName}\n` +
       `**Commit Message**: ${commit.commit.message}\n` +
-      `**Author**: ${commit.commit.author.name} (<@${commit.author.login}>)\n` +
-      `**Date**: ${new Date(commit.commit.author.date).toLocaleString('en-IN', {
-        timeZone: 'Asia/Kolkata'
-      })} IST \n` +
+      // `**Author**: ${commit.commit.author.name} (<@${commit.author.login}>)\n` +
+      `**Date**: ${formattedUTC} \n` +
       `**Link**: ${commit.html_url}\n` +
       `-----------------------------------`
+
+    console.log(message)
 
     try {
       await axios.post(DISCORD_WEBHOOK_URL, {
@@ -40,7 +51,6 @@ const sendToDiscord = async (repoName, branchName, commitLogs) => {
 
 const getOrgCommits = async (org, since) => {
   const repos = await getOrgRepos(org, since)
-  console.log('Fetched repos:', repos)
 
   const emptyRepos = []
   const reposUpdates = repos.map(async (repoInfo) => {
@@ -174,7 +184,6 @@ const getOrgRepos = async (org, since) => {
 
 const getLastCheck = async () => {
   const data = JSON.parse(fs.readFileSync('./data.json'))
-  console.log('last_checked: ', data.last_checked, new Date(data.last_checked).getTime())
   return new Date(data.last_checked).getTime()
 }
 
